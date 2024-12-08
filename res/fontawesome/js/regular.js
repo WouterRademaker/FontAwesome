@@ -262,7 +262,7 @@
   const NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
   const PRODUCTION = (() => {
     try {
-      return undefined === 'production';
+      return "production" === 'production';
     } catch (e$$1) {
       return false;
     }
